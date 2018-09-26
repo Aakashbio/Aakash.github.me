@@ -517,6 +517,12 @@ html,body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+#foot{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(235, 13, 13);
+}
 @media (max-width:700px){
     #info{
         width: 100%;
@@ -682,4 +688,14 @@ html,body{
     #forms h1{
         font-size: 19px;
     }
+    }
+
+    ::-webkit-scrollbar{
+        width: 5px;
+        background-color: #fff;
+    }
+
+    ::-webkit-scrollbar-thumb{
+       background-color: rebeccapurple;
+        border-radius: 10px;
     }
